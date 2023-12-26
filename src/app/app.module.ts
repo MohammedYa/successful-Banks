@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './componants/login/login.component';
@@ -12,7 +11,6 @@ import { ContactComponent } from './componants/contact/contact.component';
 import { ServiceItemComponent } from './componants/service-item/service-item.component';
 import { PaymentComponent } from './componants/payment/payment.component';
 import { CartComponent } from './componants/cart/cart.component';
-import { FooterComponent } from './componants/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,8 +24,7 @@ import { FooterComponent } from './componants/footer/footer.component';
     ServiceItemComponent,
     PaymentComponent,
     CartComponent,
-    FooterComponent,
-    
+
   ],
   imports: [
     BrowserModule,
