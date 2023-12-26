@@ -12,9 +12,6 @@ import { ContactComponent } from './componants/contact/contact.component';
 import { ServiceItemComponent } from './componants/service-item/service-item.component';
 import { PaymentComponent } from './componants/payment/payment.component';
 import { CartComponent } from './componants/cart/cart.component';
-import { NavbarComponent } from './componants/navbar/navbar.component';
-import { ServiceComponent } from './componants/service/service.component';
-
 
 @NgModule({
   declarations: [
@@ -28,8 +25,7 @@ import { ServiceComponent } from './componants/service/service.component';
     ServiceItemComponent,
     PaymentComponent,
     CartComponent,
-    NavbarComponent,
-    ServiceComponent
+
   ],
   imports: [
     BrowserModule,
