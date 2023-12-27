@@ -13,6 +13,7 @@ import { PaymentComponent } from './componants/payment/payment.component';
 import { CartComponent } from './componants/cart/cart.component';
 import { NavbarComponent } from './componants/navbar/navbar.component';
 import { FooterComponent } from './componants/footer/footer.component';
+import { BookingComponent } from './componants/booking/booking.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FooterComponent } from './componants/footer/footer.component';
     PaymentComponent,
     CartComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    BookingComponent
   ],
   imports: [
     BrowserModule,
