@@ -10,25 +10,26 @@ import { PaymentComponent } from './componants/payment/payment.component';
 import { RegisterComponent } from './componants/register/register.component';
 import { ServiceItemComponent } from './componants/service-item/service-item.component';
 import { ServiceComponent } from './componants/service/service.component';
+import { BookingComponent } from './componants/booking/booking.component';
 
 const routes: Routes = [
-  {path:"",redirectTo:"/home",pathMatch:"full"},
-  {path:"home",component:HomeComponent},
-  {path:"about",component:AboutComponent},
-  {path:"service",component:ServiceComponent},
-  {path:"cart",component:CartComponent},
-  {path:"contact",component:ContactComponent},
-  {path:"login",component:LoginComponent},
-  {path:"notfound",component:NotfoundComponent},
-  {path:"payment",component:PaymentComponent},
-  {path:"register",component:RegisterComponent},
-  {path:"service-item",component:ServiceItemComponent},
-  {path:"**",component:NotfoundComponent}
-
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'service', component: ServiceComponent },
+  { path: 'cart', component: CartComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'booking', component: BookingComponent },
+  { path: 'payment', component: PaymentComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'service-item', component: ServiceItemComponent },
+  { path: 'notfound', component: NotfoundComponent },
+  { path: '**', component: NotfoundComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
