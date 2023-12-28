@@ -33,7 +33,8 @@ import { BookingComponent } from './componants/booking/booking.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,16 +1,23 @@
 .box {
   display: flex;
-
+  position: relative;
+  height: 800px;
 }
-.theme{
-background-color: #0d6efd;
-width: 50%;
-height: 100vh;
+.theme {
+  background-color: #B4D4FF;
+  width: 50%;
+
 }
 .theme2 {
   background-color: #f5f6f8;
   width: 50%;
-  height: 100vh;
+
+}
+.loging-box {
+  position: absolute;
+  top: 125px;
+  left: 30%;
+  padding: 15px;
 }
 .logo-btn {
   display: flex;
@@ -18,10 +25,26 @@ height: 100vh;
   align-items: center;
 }
 .logo-box {
-  width: 100px;
+  width: 150px;
   height: 100px;
+  padding: 5px;
 }
 .loging-box {
-  background-color:brown ;
+  background-color: white;
   width: 500px;
+}
+.input-box {
+  width: 100%;
+  height: 60px;
+}
+.chick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
 }
