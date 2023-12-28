@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6222CC;
-    --secondary: #FBA504;
+    --primary: #0d6efd;
+    --secondary: #bc4b4b;
     --light: #F6F4F9;
     --dark: #04000B;
 }
@@ -337,6 +337,9 @@ h6,
 
 
 /*** Service ***/
+.service-item .service-icon{
+    background: none !important;
+}
 .service-item {
     position: relative;
     padding: 45px 30px;
@@ -588,4 +591,7 @@ h6,
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
     color: var(--secondary);
+}
+.num1[_ngcontent-ng-c3739568116],.num2[_ngcontent-ng-c3739568116],.num3[_ngcontent-ng-c3739568116] {
+    background-color: #eeeeee !important;
 }
