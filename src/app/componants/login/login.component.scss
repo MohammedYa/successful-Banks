@@ -1,0 +1,27 @@
+.box {
+  display: flex;
+
+}
+.theme{
+background-color: #0d6efd;
+width: 50%;
+height: 100vh;
+}
+.theme2 {
+  background-color: #f5f6f8;
+  width: 50%;
+  height: 100vh;
+}
+.logo-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-box {
+  width: 100px;
+  height: 100px;
+}
+.loging-box {
+  background-color:brown ;
+  width: 500px;
+}

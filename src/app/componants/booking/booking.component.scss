@@ -1,7 +1,7 @@
 span {
   color: #0d6efd;
-
 }
+
 .info-succs {
   background-color: #f8f8f8;
   border-radius: 15px;
@@ -25,7 +25,7 @@ span {
   width: 100%;
   border-radius: 15px ;
   box-shadow: 10px 5px #888f9a;
- 
+
 }
 .box img {
   width: 100%;
@@ -48,4 +48,16 @@ span {
 }
 .num3 {
   background-color: #2D9596;
+}
+.right-photo {
+  display: flex;
+  justify-content:  end;
+}
+.questions {
+  height: 200px;
+}
+.questions-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
