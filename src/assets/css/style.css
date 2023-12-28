@@ -1,12 +1,15 @@
 /********** Template CSS **********/
 :root {
     --primary: #0d6efd;
-    --secondary: #FBA504;
+    --secondary: #bc4b4b;
     --light: #F6F4F9;
     --dark: #04000B;
 }
 
-
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #0d6efd !important;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -588,4 +591,9 @@ h6,
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
     color: var(--secondary);
+}
+.num1[_ngcontent-ng-c3569001757],.num2[_ngcontent-ng-c3569001757] ,.num3[_ngcontent-ng-c3569001757] {
+    background-color: #eeeeee !important;
+}.service-item .service-icon{
+    background: none !important;
 }
