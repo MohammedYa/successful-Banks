@@ -622,8 +622,10 @@ p.account[_ngcontent-ng-c2292426664] a[_ngcontent-ng-c2292426664] {
     line-height: 29px;
     font-weight: 400;
     border: 1px solid #bc4b4b;
+    border-radius: 5px;
     display: inline-block;
     padding: 10px;
+    transition: all .6s ease-in;
 }
 .shoppingLink:hover{
     background-color: #bc4b4b;
