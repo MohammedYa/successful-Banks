@@ -597,3 +597,35 @@ h6,
 }.service-item .service-icon{
     background: none !important;
 }
+/* login */
+.btn-primary[_ngcontent-ng-c2292426664]:hover {
+    background-color: #bc4b4b !important;
+    color: #fff;
+}
+p.account[_ngcontent-ng-c2292426664] a[_ngcontent-ng-c2292426664] {
+    color: #bc4b4b !important;
+}
+.shoppingHead{
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 400;
+}
+.shoppingText{
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 500;
+}
+.shoppingLink{
+    color: #bc4b4b;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 400;
+    border: 1px solid #bc4b4b;
+    display: inline-block;
+    padding: 10px;
+}
+.shoppingLink:hover{
+    background-color: #bc4b4b;
+    color: #04000B;
+}
