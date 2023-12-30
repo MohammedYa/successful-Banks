@@ -602,6 +602,10 @@ h6,
     background-color: #bc4b4b !important;
     color: #fff;
 }
+.btn-primary[_ngcontent-ng-c1680335960]:hover {
+    background-color: #bc4b4b !important;
+    color: #fff;
+}
 p.account[_ngcontent-ng-c2292426664] a[_ngcontent-ng-c2292426664] {
     color: #bc4b4b !important;
 }
@@ -630,4 +634,9 @@ p.account[_ngcontent-ng-c2292426664] a[_ngcontent-ng-c2292426664] {
 .shoppingLink:hover{
     background-color: #bc4b4b;
     color: #04000B;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color:#bc4b4b !important;
+    border-color: #bc4b4b;
 }
