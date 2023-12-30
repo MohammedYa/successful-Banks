@@ -14,6 +14,7 @@ import { CartComponent } from './componants/cart/cart.component';
 import { NavbarComponent } from './componants/navbar/navbar.component';
 import { FooterComponent } from './componants/footer/footer.component';
 import { BookingComponent } from './componants/booking/booking.component';
+import { QuetionsComponent } from './componants/quetions/quetions.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { BookingComponent } from './componants/booking/booking.component';
     CartComponent,
     NavbarComponent,
     FooterComponent,
-    BookingComponent
+    BookingComponent,
+    QuetionsComponent
   ],
   imports: [
     BrowserModule,
