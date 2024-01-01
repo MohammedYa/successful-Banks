@@ -1,14 +1,24 @@
 /********** Template CSS **********/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;1,500&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Bai+Jamjuree:wght@300;400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,200&family=Dancing+Script:wght@600&family=Heebo:wght@100;200;300;400;500;600;700;800&family=IBM+Plex+Serif:wght@200;300;400;500&family=Inter:wght@200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,400;1,700;1,900&family=Noto+Naskh+Arabic:wght@400;500&family=Noto+Sans+Arabic:wght@300;400;500;600;700&family=Noto+Sans+Display:wght@300;400;500;600&family=Noto+Sans:ital,wght@0,300;1,100;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Playfair+Display:wght@500&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;800&family=Raleway:ital@1&family=Roboto+Slab:wght@200;300;500;600;700&family=Roboto:wght@300;400;500&family=Whisper&family=Work+Sans:ital,wght@1,500&display=swap');
 :root {
-    --primary: #0d6efd;
-    --secondary: #bc4b4b;
+    --primary: #6222cc;
+    --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
 }
-
-.bg-primary {
-    --bs-bg-opacity: 1;
-    background-color: #0d6efd !important;
+body{
+    font-family: 'Noto Naskh Arabic', serif;
+    color: #fff;
+}
+small{
+    color: #FBA504;
+}.footer,.hero-header{
+    background-color: #6222cc !important;
+}
+h5{
+    color: #04000B;
+    font-weight: 400;
+    font-size: 30px !important;
 }
 /*** Spinner ***/
 #spinner {
@@ -135,7 +145,15 @@ h6,
 .sticky-top.navbar-light .navbar-brand img {
     max-height: 45px;
 }
-
+.btn-secondary{
+    background-color: #FBA504 !important;
+}
+.section-title[_ngcontent-ng-c413262553] {
+    font-size: 30px;
+    color: black !important;
+    display: flex;
+    justify-content: center !important;
+}
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
@@ -382,7 +400,9 @@ h6,
 .service-item:hover p {
     color: #FFFFFF;
 }
-
+i{
+    color: #6222cc !important;
+}
 .service-item a.btn {
     position: absolute;
     bottom: -40px;
@@ -599,15 +619,15 @@ h6,
 }
 /* login */
 .btn-primary[_ngcontent-ng-c2292426664]:hover {
-    background-color: #bc4b4b !important;
+    background-color: #FBA504 !important;
     color: #fff;
 }
 .btn-primary[_ngcontent-ng-c1680335960]:hover {
-    background-color: #bc4b4b !important;
+    background-color: #FBA504 !important;
     color: #fff;
 }
 p.account[_ngcontent-ng-c2292426664] a[_ngcontent-ng-c2292426664] {
-    color: #bc4b4b !important;
+    color: #FBA504 !important;
 }
 .shoppingHead{
     font-size: 36px;
@@ -620,23 +640,26 @@ p.account[_ngcontent-ng-c2292426664] a[_ngcontent-ng-c2292426664] {
     font-weight: 500;
 }
 .shoppingLink{
-    color: #bc4b4b;
+    color: #FBA504;
     text-decoration: none;
     font-size: 17px;
     line-height: 29px;
     font-weight: 400;
-    border: 1px solid #bc4b4b;
+    border: 1px solid #FBA504;
     border-radius: 5px;
     display: inline-block;
     padding: 10px;
     transition: all .6s ease-in;
 }
 .shoppingLink:hover{
-    background-color: #bc4b4b;
+    background-color: #FBA504;
     color: #04000B;
 }
 .btn:hover {
     color: var(--bs-btn-hover-color);
-    background-color:#bc4b4b !important;
-    border-color: #bc4b4b;
+    background-color:#FBA504 !important;
+    border-color: #FBA504;
+}
+.sticky-top.navbar-light{
+    position: static;
 }
