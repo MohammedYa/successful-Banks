@@ -1,5 +1,7 @@
 /********** Template CSS **********/
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;1,500&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Bai+Jamjuree:wght@300;400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,200&family=Dancing+Script:wght@600&family=Heebo:wght@100;200;300;400;500;600;700;800&family=IBM+Plex+Serif:wght@200;300;400;500&family=Inter:wght@200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,400;1,700;1,900&family=Noto+Naskh+Arabic:wght@400;500&family=Noto+Sans+Arabic:wght@300;400;500;600;700&family=Noto+Sans+Display:wght@300;400;500;600&family=Noto+Sans:ital,wght@0,300;1,100;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Playfair+Display:wght@500&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;800&family=Raleway:ital@1&family=Roboto+Slab:wght@200;300;500;600;700&family=Roboto:wght@300;400;500&family=Whisper&family=Work+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@500&display=swap');
+
 :root {
     --primary: #6222cc;
     --secondary: #FBA504;
@@ -8,6 +10,7 @@
 }
 body{
     font-family: 'Noto Naskh Arabic', serif;
+    
     color: #fff;
 }
 small{
@@ -115,9 +118,9 @@ h6,
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 19px;
+    font-weight: 600;
     color: var(--light) !important;
     outline: none;
     transition: .5s;

@@ -7,19 +7,20 @@
           <h1 class="m-0"><img src="../../../assets/logo/Logo Files/For Web/svg/White logo - no background.svg" alt=""></h1>
           <!-- <img src="img/logo.png" alt="Logo"> -->
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-          <span class="fa fa-bars"></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span (click)="toggleElement()"class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav mx-auto py-0 px-2">
+      <div class=" collapse navbar-collapse" id="navbarSupportedContent"> 
+          <div class="element-to-toggle navbar-nav mx-auto py-0 px-2">
               <a routerLink="/home" class="nav-item nav-link  text-dark">الرئيسية</a>
               <a routerLink="/service" class="nav-item nav-link">دوراتنا</a>
               <a routerLink="/about" class="nav-item nav-link">نبذه عنا</a>
               <a routerLink="/contact" class="nav-item nav-link">تواصل معنا</a>
-              <!-- <a routerLink="/login" class="nav-item nav-link">الدخول</a> -->
+              <!-- <a routerLink="/login" class="nav-item nav-link">الدخول</a>  -->
           </div>
           <a routerLink="/login" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">الدخول</a>
-      </div>
-  </nav>
+      </div> 
+      
+    </nav>
 </div>
 <!-- Navbar & Hero End -->
