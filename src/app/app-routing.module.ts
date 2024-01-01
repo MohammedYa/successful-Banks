@@ -12,6 +12,7 @@ import { ServiceItemComponent } from './componants/service-item/service-item.com
 import { ServiceComponent } from './componants/service/service.component';
 import { BookingComponent } from './componants/booking/booking.component';
 import { QuetionsComponent } from './componants/quetions/quetions.component';
+import { SubjectsComponent } from './componants/subjects/subjects.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -26,7 +27,8 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'service-item', component: ServiceItemComponent },
   { path: 'quetions', component: QuetionsComponent },
-  { path: 'notfound', component: NotfoundComponent },  
+  { path: 'notfound', component: NotfoundComponent },
+  {path:'subjects',component:SubjectsComponent},  
   { path: '**', component: NotfoundComponent },
 ];
 
