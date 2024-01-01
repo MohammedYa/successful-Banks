@@ -26,9 +26,9 @@ const routes: Routes = [
   { path: 'payment', component: PaymentComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'service-item', component: ServiceItemComponent },
-  { path: 'quetions', component: QuetionsComponent },
   { path: 'notfound', component: NotfoundComponent },
   {path:'subjects',component:SubjectsComponent},  
+  {path:'queation',component:QuetionsComponent},  
   { path: '**', component: NotfoundComponent },
 ];
 
